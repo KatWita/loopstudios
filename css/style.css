@@ -468,6 +468,7 @@ p {
   .creations__btn {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
+    margin-top: 4.9em;
   }
   .creations__btn:hover {
     background-color: hsl(0, 0%, 0%);

@@ -206,6 +206,7 @@
 		&__btn {
 			cursor: pointer;
 			transition: background-color 0.3s, color 0.3s;
+			margin-top: 4.9em;
 
 			&:hover {
 				background-color: $black;
