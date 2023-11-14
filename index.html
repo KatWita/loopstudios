@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Loopstudios landing page</title>
+</head>
+
+<body>
+
+  <nav class="nav">
+    <div class="container">
+      <div class="nav__mobile">
+        <img src="./images/logo.svg" alt="logo" class="nav__logo">
+        <div class="nav__burger">
+          <div class="nav__burger-bar"></div>
+          <div class="nav__burger-bar"></div>
+          <div class="nav__burger-bar"></div>
+        </div>
+      </div>
+      <ul class="nav__links">
+        <li><a href="#" class="nav__link">about</a></li>
+        <li><a href="#" class="nav__link">careers</a></li>
+        <li><a href="#" class="nav__link">events</a></li>
+        <li><a href="#" class="nav__link">products</a></li>
+        <li><a href="#" class="nav__link">support</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__box">
+        <h1 class="header__headline">immersive experiences that deliver</h1>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <section class="section vr" id="vr">
+        <div class="vr__img"></div>
+        <div class="vr__content">
+          <h2 class="vr__headline">The leader in interactive VR</h2>
+          <p class="vr__text">Founded in 2011, Loopstudios has been producing world-class virtual reality
+            projects for some of the best companies around the globe. Our award-winning
+            creations have transformed businesses through digital experiences that bind
+            to their brand.</p>
+        </div>
+      </section>
+
+      <section class="section creations">
+        <h2 class="creations__headline">our creations</h2>
+        <div class="creations__box">
+          <!-- added by js  -->
+        </div>
+        <button class="creations__btn">see all</button>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer section">
+    <div class="footer-center">
+      <img src="./images/logo.svg" alt="logo" class="footer__logo">
+      <ul class="footer__links">
+        <li><a href="#" class="footer__link">about</a></li>
+        <li><a href="#" class="footer__link">careers</a></li>
+        <li><a href="#" class="footer__link">events</a></li>
+        <li><a href="#" class="footer__link">products</a></li>
+        <li><a href="#" class="footer__link">support</a></li>
+      </ul>
+      <div class="footer__social">
+        <div class="footer__icon">
+          <img src="./images/icon-facebook.svg" alt="facebook icon" class="footer__icon">
+        </div>
+        <div class="footer__icon">
+          <img src="./images/icon-twitter.svg" alt="twitter icon">
+        </div>
+        <div class="footer__icon">
+          <img src="./images/icon-pinterest.svg" alt="pinterest icon">
+        </div>
+        <div class="footer__icon">
+          <img src="./images/icon-instagram.svg" alt="instagram icon">
+        </div>
+
+      </div>
+      <p class="footer__copyright">© 2021 Loopstudios. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" type="module"></script>
+</body>
+
+</html>

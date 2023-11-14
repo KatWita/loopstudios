@@ -1,0 +1,103 @@
+.header {
+	background-image: url(../images/mobile/image-hero.jpg);
+	min-height: 100vh;
+
+	&__box {
+		position: relative;
+		top: 35vh;
+		padding: 1.5em;
+		border: 2px solid $white;
+	}
+
+	&__headline {
+		font-size: 2.2rem;
+	}
+}
+
+@media (min-width: 360px) {
+	.header__headline {
+		font-size: 2.5rem;
+	}
+}
+
+@media (min-width: 405px) {
+	.header {
+		&__box {
+			padding: 4em 2em;
+		}
+
+		&__headline {
+			font-size: 2.8rem;
+		}
+	}
+}
+
+@media (min-width: 440px) {
+	.header {
+		&__headline {
+			font-size: 3.1rem;
+		}
+	}
+}
+
+@media (min-width: 478px) {
+	.header {
+		&__headline {
+			font-size: 3.2rem;
+		}
+	}
+}
+
+@media (min-width: 638px) {
+	.header {
+		&__box {
+			padding: 4em 4em;
+		}
+
+		&__headline {
+			font-size: 3.6rem;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.header {
+		&__box {
+			padding: 4em 8em;
+		}
+
+		&__headline {
+			font-size: 4rem;
+		}
+	}
+}
+
+@media (min-width: 926px) {
+	.header__headline {
+		font-size: 3.2rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.header {
+		background-image: url(../images/desktop/image-hero.jpg);
+		min-height: 50vh;
+
+		&__box {
+			top: 14vh;
+			width: 50%;
+			padding: 4em 2em;
+		}
+	}
+}
+
+@media (min-width: 1275px) {
+	.header {
+		min-height: 62vh;
+
+		&__box {
+			top: 18vh;
+			padding: 3em;
+		}
+	}
+}
