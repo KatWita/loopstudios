@@ -123,6 +123,10 @@
 }
 
 @media (min-width: 1024px) {
+	.section {
+		padding-top: 5em;
+	}
+
 	.vr {
 		position: relative;
 
@@ -156,6 +160,11 @@
 	}
 
 	.creations {
+		&__headline {
+			text-align: left;
+			margin-bottom: 1.5em;
+		}
+
 		&__box {
 			grid-template-columns: repeat(4, 1fr);
 			gap: 1.8em;

@@ -401,6 +401,9 @@ p {
   }
 }
 @media (min-width: 1024px) {
+  .section {
+    padding-top: 5em;
+  }
   .vr {
     position: relative;
   }
@@ -427,6 +430,10 @@ p {
   .vr__text {
     padding: 0;
     line-height: 2em;
+  }
+  .creations__headline {
+    text-align: left;
+    margin-bottom: 1.5em;
   }
   .creations__box {
     grid-template-columns: repeat(4, 1fr);
@@ -540,6 +547,9 @@ p {
 }
 
 @media (min-width: 1024px) {
+  .footer {
+    padding: 2em 0;
+  }
   .footer-center {
     display: grid;
     grid-template-columns: 1fr auto;
